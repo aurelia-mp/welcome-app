@@ -1,8 +1,12 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap');
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+}
+
+body {
+  font-family: 'Zen Kaku Gothic New', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +14,56 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* Estilos de tipografia */
+.upper{
+  text-transform: uppercase;
+}
+
+/* Estilos de Home */
+.imagenHome{
+  width: 100%;
+}
+
+.prehome{
+  position: fixed;
+  /* Definir left y right permite que quede centrado*/
+  left: 10%;
+  right: 10%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.prehome h1{
+  text-align: center;
+}
+
+.prehome div{
+  color: white;
+  text-align: right;
+  border-bottom: 1px solid black;
+}
+
+/* Estilos de Footer */
+.footer{
+  left: 0;
+  bottom: 0;
+  height: 5%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color:white;
+  color: black;
+  text-align: center;
+  position: fixed;
+}
+
+.iconFooter{
+  height: 40px
 }
