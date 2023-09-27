@@ -20,12 +20,12 @@ const Home = () => {
     <div>
       {!esPrimerIngreso ?
         <div>
-          <img className="imagenHome" src="/Psanto04-1000px.jpg" alt="Palo Santo Hotel façade"/>
+          <img className="imagenHome" src="/fotos/Psanto04-1000px.jpg" alt="Palo Santo Hotel façade"/>
           <h1 className="titulo">Discover Palo Santo</h1>
           <div className='lineaCentro'>
             <img src="/icons/line.png" alt="flechaDerecha" />
           </div>
-          <img className="imagenHome" src="/Psanto04-1000px.jpg" alt="Palo Santo Hotel façade"/>
+          <img className="imagenHome" src="/fotos/PremiumPiso8_MG_8285-1000px.jpg" alt="Palo Santo Hotel façade"/>
 
           <UsefulInfo />
           <Map />
