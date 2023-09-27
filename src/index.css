@@ -45,7 +45,14 @@ code {
 .prehome div{
   color: white;
   text-align: right;
-  border-bottom: 1px solid black;
+  /* border-bottom: 1px solid black; */
+}
+
+.lineaCentro {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
 }
 
 /* Estilos de Footer */
@@ -67,3 +74,82 @@ code {
 .iconFooter{
   height: 40px
 }
+
+
+/* USEFULL INFORMATION */
+
+.contenedorGrande {
+
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-style: bold;
+  font-size: 2rem;
+  padding-top: 1rem;
+}
+
+.in img {
+  width: 3rem;
+  padding-right: 3rem;
+  padding-left: 0.7rem;
+}
+
+.in {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.palabraIn {
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.tresPM {
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 900;
+
+}
+
+.fraseIt {
+  display: flex;
+  justify-items: center;
+  margin: 1.5rem;
+}
+
+.bloquesInternos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.bloquesInternos img {
+  width: 5rem;
+  padding-right: 3rem;
+}
+
+.contenedorGeneral {
+  margin: 2rem;
+}
+
+.texto {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+
+}
+
+.lineaDerecha {
+  display: flex;
+  justify-content: end;
+}
+

@@ -21,7 +21,12 @@ const Home = () => {
       {!esPrimerIngreso ?
         <div>
           <img className="imagenHome" src="/Psanto04-1000px.jpg" alt="Palo Santo Hotel façade"/>
-          <h1 className="upper">Discover Palo Santo</h1>
+          <h1 className="titulo">Discover Palo Santo</h1>
+          <div className='lineaCentro'>
+            <img src="/icons/line.png" alt="flechaDerecha" />
+          </div>
+          <img className="imagenHome" src="/Psanto04-1000px.jpg" alt="Palo Santo Hotel façade"/>
+
           <UsefulInfo />
           <Map />
           <FoodHome />
@@ -29,7 +34,9 @@ const Home = () => {
       :
         <div className="prehome">
           <h1 className="upper">Palo Santo Hotel</h1>
-          <div> e</div>
+          <div className=''>
+            <img src="/icons/line.png" alt="flechaDerecha" />
+          </div>
         </div>
       }
 
