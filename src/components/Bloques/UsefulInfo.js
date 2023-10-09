@@ -48,18 +48,42 @@ const UsefulInfo = () => {
       </div>
 
       <div>
-          <img src="/icons/line.png" alt="flechaDerecha" />
+          <img src="/icons/line.png" alt="flechaIzquierda" />
       </div>
 
       <div className='bloquesInternos'>
         <img src="/icons/bicycle.png" alt="clock" />
           <div className='texto'>
             <p>please, borrow me</p>
-            <p>at front desk</p>
+            <p>and ride on!</p>
           </div>
       </div>
 
+      <div className='lineaDerecha'>
+          <img src="/icons/line.png" alt="flechaDerecha" />
       </div>
+
+      <div className='bloquesInternos'>
+        <img src="/icons/piscina.png" alt="clock" />
+          <div className='texto'>
+            <p>every day</p>
+            <p>from 8 AM to 10 PM</p>
+          </div>
+      </div>
+
+
+      </div>
+
+      <img className='imagenHome' src="/fotos/1604 - Guest Bikes - Garden - DSC_0299 - 1000px.jpg" alt="" />
+    
+      <div className='in'>
+          <p className='palabraBike'>BIKE</p>
+          {/* <p className='textoBike'>We have a borrow-a-bike program. Visit Buenos Aires using our bikes.</p> */}
+          <p className='textoBike'>Visit Buenos Aires using our bikes. Available at Front Desk, first come, first served basis. </p>
+
+      </div>
+
+
     </div>
     </>
   )

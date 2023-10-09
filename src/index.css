@@ -59,7 +59,7 @@ code {
 .footer{
   left: 0;
   bottom: 0;
-  height: 5%;
+  height: 2.7rem;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
@@ -69,6 +69,11 @@ code {
   color: black;
   text-align: center;
   position: fixed;
+}
+
+/* Permite que no desaparezca el contenido detrás del footer */
+.containerMain {
+  margin-bottom: 6rem;
 }
 
 .iconFooter{
@@ -145,7 +150,6 @@ code {
   font-size: 1.2rem;
   text-transform: uppercase;
   font-weight: 600;
-
 }
 
 .lineaDerecha {
@@ -153,3 +157,124 @@ code {
   justify-content: end;
 }
 
+.palabraBike {
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.textoBike {
+  padding-right: 0.4rem;
+  text-transform: uppercase;
+}
+
+/* SECCIÓN PRESENTACIÓN FOOD */
+
+.fotoPresentacionFood img {
+  width: 100%;
+}
+
+.tituloInterno {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-style: bold;
+  font-size: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.explore {
+  font-weight: 900;
+  font-style: bold;
+  font-size: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 3rem;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.contenedorExplore {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.lineaDerechaSinContenedor {
+  display: flex;
+  justify-content: end;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+}
+
+.lineaIzquierdaSinContenedor {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+.linkInterno {
+  text-decoration: none;
+  color: black;
+}
+
+/* SECCIÓN FOOD */
+
+.iconoSlider img {
+  width: 15%;
+}
+
+.iconoSlider {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.texto1 {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.parrafo {
+  margin-bottom: 0.7rem;
+}
+
+.iconoTriangulo img {
+  width: 50%;
+  margin: 0;
+}
+
+.iconoTriangulo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.linkFood {
+  display: flex;
+  justify-content: center;
+}
+
+/* MAP */
+.tituloMap {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-style: bold;
+  font-size: 1.7rem;
+  padding-top: 1rem;
+}

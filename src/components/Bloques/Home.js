@@ -3,6 +3,8 @@ import { SessionContext } from '../../context/sessionContext'
 import UsefulInfo from './UsefulInfo'
 import Map from './Map'
 import FoodHome from './Food/FoodHome'
+import PresentacionFood from './PresentacionFood'
+import PresentacionGreen from './PresentacionGreen'
 
 const Home = () => {
   const {esPrimerIngreso, ingresar} = useContext(SessionContext)
@@ -28,8 +30,9 @@ const Home = () => {
           <img className="imagenHome" src="/fotos/PremiumPiso8_MG_8285-1000px.jpg" alt="Palo Santo Hotel façade"/>
 
           <UsefulInfo />
+          <PresentacionFood/>
+          <PresentacionGreen/>
           <Map />
-          <FoodHome />
         </div>
       :
         <div className="prehome">
