@@ -5,7 +5,7 @@ const Insulation = () => {
   return (
     <>
     <div className='fotoPresentacionFood'>
-        <img src="/fotos/_MG_3823-ZoomCascada3000px.jpg" alt="flechaDerecha" />
+        <img src="/fotos/terrace.jpg" alt="flechaDerecha" />
     </div>
 
     <div className='iconoTriangulo'>

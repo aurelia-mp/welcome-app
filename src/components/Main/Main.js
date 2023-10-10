@@ -15,6 +15,7 @@ import Insulation from '../Bloques/Green/Insulation'
 import CO2 from '../Bloques/Green/CO2'
 import Air from '../Bloques/Green/Air'
 import Operations from '../Bloques/Green/Operations'
+import Map from '../Bloques/Map'
 
 const Main = () => {
   return (
@@ -34,6 +35,7 @@ const Main = () => {
         <Route path='/green/CO2' element={<CO2/>} />
         <Route path='/green/air' element={<Air/>} />
         <Route path='/green/operations' element={<Operations/>} />
+        <Route path='/map' element={<Map/>} />
 
     </Routes>
     </div>

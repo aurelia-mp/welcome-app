@@ -5,7 +5,7 @@ const Restaurant = () => {
   return (
     <>
     <div className='fotoPresentacionFood'>
-        <img src="/fotos/Psanto14-3000px.jpg" alt="flechaDerecha" />
+        <img src="/fotos/patioNoche.jpg" alt="patio de noche" />
     </div>
 
     <div className='iconoTriangulo'>

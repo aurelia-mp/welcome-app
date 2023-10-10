@@ -5,7 +5,7 @@ const Materials = () => {
   return (
     <>
     <div className='fotoPresentacionFood'>
-        <img src="/fotos/_MG_3823-ZoomCascada3000px.jpg" alt="flechaDerecha" />
+        <img src="/fotos/materials.jpg" alt="flechaDerecha" />
     </div>
 
     <div className='iconoTriangulo'>
