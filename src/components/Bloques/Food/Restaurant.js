@@ -21,7 +21,7 @@ const Restaurant = () => {
         <p className='parrafo'>CHARQUI RESTAURANT</p>
         <p className='parrafo'>Located on our premises, Charqui Restaurant offers Argentine and international food.</p>
         <p className='parrafo'>You will find their menus and special offer on their Instagram:</p>
-        <p className='parrafo'>@charquirestaurantok</p>
+        <p className='parrafo'><a href="https://instagram.com/charquirestaurantok?igshid=NTc4MTIwNjQ2YQ==" target="_blank">@charquirestaurantok</a></p>
         <p className='parrafo'>Opening hours:</p>
         <p className='parrafo'>Open for brunch, lunch and dinner from Wednesday to Saturday
 Open for brunch and lunch only on Tuesdays and Sundays</p>

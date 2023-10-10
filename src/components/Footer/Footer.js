@@ -9,7 +9,7 @@ const Footer = () => {
         <Link to="/food-drinks"><img className='iconFooter' src='/icons/restaurant.png' alt="restaurant"/></Link>
         <Link to="/green"><img className='iconFooter' src='/icons/ecology.png' alt="green"/></Link>
         <Link to="/map"><img className='iconFooter' src='/icons/placeholder.png' alt="map"/></Link>
-        <Link to="https://wa.me/5491163572374?text=Hi%20Front%20Desk,%20I'm%20contacting%20you%20from%20room%20XX"><img className='iconFooter' src='/icons/whatsapp.png' alt="contact"/></Link>
+        <Link to="https://wa.me/5491163572374?text=Hi%20Front%20Desk,%20I'm%20contacting%20you%20from%20room%20XX" target="_blank"><img className='iconFooter' src='/icons/whatsapp.png' alt="contact"/></Link>
       </div>
     </div>
   )

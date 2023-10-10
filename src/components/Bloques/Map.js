@@ -11,7 +11,7 @@ const Map = () => {
           </a>
         </div>
 
-        <p className='textoMapa'>Click on the image to access a map of Buenos Aires' hotest places to go out!</p>
+        <p className='textoMapa'>We handpicked the best places in Palermo and around: bars, restaurants and shopping<br></br> Click on the map to explore</p>
 
   
     </div>
