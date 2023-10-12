@@ -23,12 +23,12 @@ const UsefulInfo = () => {
         </div>
 
         <div className="lineaIzquierda">
-          <img src="/icons/line.png" alt="flechaDerecha" />
+          <img src="/icons/line.png" alt="linea" />
         </div>
 
 
       <div className='bloquesInternos'>
-        <img src="/icons/smoking.png" alt="clock" />
+        <img src="/icons/smoking.png" alt="" />
           <div className='texto'>
             <p>Smoke free hotel</p>
             <p>Including balconies</p>
@@ -36,11 +36,11 @@ const UsefulInfo = () => {
       </div>
 
       <div className='lineaDerecha'>
-          <img src="/icons/line.png" alt="flechaDerecha" />
+          <img src="/icons/line.png" alt="linea" />
       </div>
 
       <div className='bloquesInternos'>
-        <img src="/icons/wifi.png" alt="clock" />
+        <img src="/icons/wifi.png" alt="" />
           <div className='texto'>
             <p>Wifi password</p>
             <p>bonpland</p>
@@ -48,11 +48,11 @@ const UsefulInfo = () => {
       </div>
 
       <div>
-          <img src="/icons/line.png" alt="flechaIzquierda" />
+          <img src="/icons/line.png" alt="linea" />
       </div>
 
       <div className='bloquesInternos'>
-        <img src="/icons/bicycle.png" alt="clock" />
+        <img src="/icons/bicycle.png" alt="" />
           <div className='texto'>
             <p>please, borrow me</p>
             <p>and ride on!</p>
@@ -60,11 +60,11 @@ const UsefulInfo = () => {
       </div>
 
       <div className='lineaDerecha'>
-          <img src="/icons/line.png" alt="flechaDerecha" />
+          <img src="/icons/line.png" alt="linea" />
       </div>
 
       <div className='bloquesInternos'>
-        <img src="/icons/piscina.png" alt="clock" />
+        <img src="/icons/piscina.png" alt="" />
           <div className='texto'>
             <p>every day</p>
             <p>from 8 AM to 10 PM</p>
@@ -78,9 +78,7 @@ const UsefulInfo = () => {
     
       <div className='in'>
           <p className='palabraBike'>BIKE</p>
-          {/* <p className='textoBike'>We have a borrow-a-bike program. Visit Buenos Aires using our bikes.</p> */}
-          <p className='textoBike'>Visit Buenos Aires using our bikes. Available at Front Desk, first come, first served basis. </p>
-
+          <p className='textoBike'>Visit Buenos Aires using our bikes. Available at Front Desk. First come, first served basis. </p>
       </div>
 
 

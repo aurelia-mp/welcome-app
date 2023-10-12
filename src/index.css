@@ -83,10 +83,6 @@ code {
 
 /* USEFULL INFORMATION */
 
-.contenedorGrande {
-
-}
-
 .titulo {
   display: flex;
   justify-content: center;
@@ -101,6 +97,9 @@ code {
   width: 3rem;
   padding-right: 3rem;
   padding-left: 0.7rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 .in {
@@ -170,6 +169,7 @@ code {
 .textoBike {
   padding-right: 0.4rem;
   text-transform: uppercase;
+  margin-right: 1rem;
 }
 
 /* SECCIÓN PRESENTACIÓN FOOD */
@@ -319,5 +319,29 @@ code {
     justify-content: flex-end;
     margin-right: 2rem;
   }
+
+.titulo {
+  font-size: 3rem;
+}
+
+.palabraBike {
+  font-size: 5rem;
+}
+
+.palabraIn {
+  font-size: 4rem;
+}
+
+.tresPM {
+  font-size: 4rem;
+}
+
+.tituloInterno {
+  font-size: 5rem;
+}
+
+.tituloMap {
+  font-size: 3rem;
+}
 
 }
