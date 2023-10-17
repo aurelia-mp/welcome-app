@@ -22,6 +22,17 @@ code {
 }
 
 /* Estilos de Home */
+.computadora{
+  text-align: center;
+}
+
+.computadora img{
+  width: 30%
+}
+
+.computadora p{
+  margin-top: 3rem
+}
 .imagenHome{
   width: 100%;
 }
