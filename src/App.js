@@ -22,7 +22,7 @@ function App() {
         </BrowserRouter>
         :
         <div className="computadora">
-        <img src="/fotos/logo.jpg"></img>
+        <img src="/fotos/logo.jpg" alt="logo"></img>
         <h2>This app was developped for smaller screens.<br></br>Please open on a mobile phone o tablet</h2>
         <p><a href="https://www.palosantohotel.com">Browse our website </a></p>
         </div>

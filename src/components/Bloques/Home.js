@@ -2,7 +2,6 @@ import React, {useEffect, useContext} from 'react'
 import { SessionContext } from '../../context/sessionContext'
 import UsefulInfo from './UsefulInfo'
 import Map from './Map'
-import FoodHome from './Food/FoodHome'
 import PresentacionFood from './PresentacionFood'
 import PresentacionGreen from './PresentacionGreen'
 

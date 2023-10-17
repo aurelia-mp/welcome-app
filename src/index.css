@@ -164,7 +164,7 @@ code {
 
 .lineaDerecha {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 .palabraBike {
@@ -220,7 +220,7 @@ code {
 
 .lineaDerechaSinContenedor {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   margin-right: 2rem;
   margin-bottom: 2rem;
 }

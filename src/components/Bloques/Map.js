@@ -6,7 +6,7 @@ const Map = () => {
         <h2 className='tituloMap'>Our Concierge's Picks</h2>
 
         <div className='mapa'>
-          <a href="https://www.google.com/maps/d/u/0/edit?mid=1nnBsL8jvSiZbWANTmIWOOm8raCYCCPU&usp=sharing" target='_blank'>
+          <a href="https://www.google.com/maps/d/u/0/edit?mid=1nnBsL8jvSiZbWANTmIWOOm8raCYCCPU&usp=sharing" rel="noreferrer" target='_blank'>
             <img src="/fotos/mapaNegro.jpg" alt="" />
           </a>
         </div>
