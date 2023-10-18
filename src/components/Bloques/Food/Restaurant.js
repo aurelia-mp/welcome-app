@@ -20,7 +20,7 @@ const Restaurant = () => {
     <div className='texto1'>
         <p className='parrafo'>CHARQUI RESTAURANT</p>
         <p className='parrafo'>Located on our premises, Charqui Restaurant offers Argentine and international food.</p>
-        <p className='parrafo'>You will find their menus and special offer on their Instagram:</p>
+        <p className='parrafo'>You will find their menus on their Instagram account:</p>
         <p className='parrafo'><a href="https://instagram.com/charquirestaurantok?igshid=NTc4MTIwNjQ2YQ==" rel="noreferrer" target="_blank">@charquirestaurantok</a></p>
         <p className='parrafo'>Opening hours:</p>
         <p className='parrafo'>Open for brunch, lunch and dinner from Wednesday to Saturday
