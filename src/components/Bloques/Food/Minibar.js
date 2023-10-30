@@ -19,7 +19,7 @@ const Minibar = () => {
 
     <div className='texto1'>
         <p className='parrafo'>MINIBAR & WINE</p>
-        <p className='parrafo'>Your minibar is stocked with sweet and savory snacks, most of them locally sourced and including healthy-ish options.</p>
+        {/* <p className='parrafo'>Your minibar is stocked with sweet and savory snacks, most of them locally sourced and including healthy-ish options.</p> */}
         <p className='parrafo'>WATER</p>
         <p className='parrafo'>In order to reduce the use of plastics, you will find canned water and a refillable glass jar. A water dispenser is available for you in the lobby.
 Please note that tap water is perfectly safe to consume.</p>

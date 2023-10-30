@@ -5,7 +5,7 @@ const GreenIntro = () => {
   return (
     <>
     <div className='fotoPresentacionFood'>
-        <img src="/fotos/green2.jpg" alt="flechaDerecha" />
+        <img src="/fotos/green3.jpg" alt="foto greenIntro" />
     </div>
 
     <div className='iconoTriangulo'>
