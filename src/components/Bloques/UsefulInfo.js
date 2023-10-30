@@ -28,7 +28,7 @@ const UsefulInfo = () => {
 
 
       <div className='bloquesInternos'>
-        <img src="/icons/smoking.png" alt="" />
+        <img src="/icons/smoking.png" alt="no smoking" />
           <div className='texto'>
             <p>Smoke free hotel</p>
             <p>Including balconies</p>
@@ -40,7 +40,7 @@ const UsefulInfo = () => {
       </div>
 
       <div className='bloquesInternos'>
-        <img src="/icons/wifi.png" alt="" />
+        <img src="/icons/wifi.png" alt="wifi" />
           <div className='texto'>
             <p>Wifi password</p>
             <p>bonpland</p>
@@ -52,7 +52,7 @@ const UsefulInfo = () => {
       </div>
 
       <div className='bloquesInternos'>
-        <img src="/icons/bicycle.png" alt="" />
+        <img src="/icons/bicycle.png" alt="bike" />
           <div className='texto'>
             <p>please, borrow me</p>
             <p>and ride on!</p>
@@ -64,10 +64,23 @@ const UsefulInfo = () => {
       </div>
 
       <div className='bloquesInternos'>
-        <img src="/icons/piscina.png" alt="" />
+        <img src="/icons/piscina.png" alt="pool" />
           <div className='texto'>
             <p>every day</p>
-            <p>from 8 AM to 10 PM</p>
+            <p>from 9 AM to 9 PM</p>
+            <p>8th floor</p>
+          </div>
+      </div>
+      
+      <div>
+          <img src="/icons/line.png" alt="linea" />
+      </div>
+
+      <div className='bloquesInternos'>
+        <img src="/icons/aspiradora.png" alt="cleaning" />
+          <div className='texto'>
+            <p>daily housekeeping service:</p>
+            <p>from 9am to 4pm</p>
           </div>
       </div>
 
