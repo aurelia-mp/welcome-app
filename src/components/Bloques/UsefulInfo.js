@@ -95,6 +95,18 @@ const UsefulInfo = () => {
           </div>
       </div>
 
+      <div>
+          <img src="/icons/line.png" alt="linea" />
+      </div>
+
+      <div className='bloquesInternos'>
+        <img src="/icons/gym.png" alt="valuables" />
+          <div className='texto'>
+            <p>gym open daily</p>
+            <p>from 9AM to 10PM</p>
+          </div>
+      </div>
+
       </div>
 
       <img className='imagenHome' src="/fotos/1604 - Guest Bikes - Garden - DSC_0299 - 1000px.jpg" alt="" />
