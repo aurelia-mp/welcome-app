@@ -119,7 +119,7 @@ const UsefulInfo = () => {
       <img className='imagenHome' src="/fotos/gym.jpg" alt="" />   
       <div className='in'>
           <p className='palabraBike'>GYM</p>
-          <p className='textoBike'>You are an excercise fan? Then, never stop training. Come upstairs and get a good sweat! </p>
+          <p className='textoBike'>Are you an excercise fan? Then, never stop training. Come upstairs and get a good sweat! </p>
       </div>
       
     </div>
