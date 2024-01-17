@@ -116,7 +116,12 @@ const UsefulInfo = () => {
           <p className='textoBike'>Visit Buenos Aires using our bikes. Available at Front Desk. First come, first served basis. </p>
       </div>
 
-
+      <img className='imagenHome' src="/fotos/gym.jpg" alt="" />   
+      <div className='in'>
+          <p className='palabraBike'>GYM</p>
+          <p className='textoBike'>You are an excercise fan? Then, never stop training. Come upstairs and get a good sweat! </p>
+      </div>
+      
     </div>
     </>
   )
