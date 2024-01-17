@@ -95,17 +95,39 @@ const UsefulInfo = () => {
           </div>
       </div>
 
+      <div>
+          <img src="/icons/line.png" alt="linea" />
       </div>
 
-      <img className='imagenHome' src="/fotos/1604 - Guest Bikes - Garden - DSC_0299 - 1000px.jpg" alt="" />
-    
+      <div className='bloquesInternos'>
+        <img src="/icons/gym.png" alt="valuables" />
+          <div className='texto'>
+            <p>gym open daily</p>
+            <p>from 9AM to 10PM</p>
+          </div>
+      </div>
+
+
+      </div>
+      <img className='imagenHome' src="/fotos/1604 - Guest Bikes - Garden - DSC_0299 - 1000px.jpg" alt="" />   
       <div className='in'>
           <p className='palabraBike'>BIKE</p>
           <p className='textoBike'>Visit Buenos Aires using our bikes. Available at Front Desk. First come, first served basis. </p>
       </div>
 
+      <img className='imagenHome' src="/fotos/gym.jpg" alt="" />   
+      <div className='in'>
+          <p className='palabraBike'>GYM</p>
+          <p className='textoBike'>You are an excercise fan? Then, never stop training. Come upstairs and get a good sweat! </p>
+      </div>
 
+  
     </div>
+
+    
+
+    
+
     </>
   )
 }
