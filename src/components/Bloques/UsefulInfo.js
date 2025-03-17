@@ -103,7 +103,7 @@ const UsefulInfo = () => {
         <img src="/icons/gym.png" alt="valuables" />
           <div className='texto'>
             <p>gym open daily</p>
-            <p>from 9AM to 10PM</p>
+            <p>from 9AM to 9PM</p>
           </div>
       </div>
 
