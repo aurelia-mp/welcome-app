@@ -24,8 +24,7 @@ const Restaurant = () => {
         <p className='parrafo'><a href="https://instagram.com/charquirestaurantok?igshid=NTc4MTIwNjQ2YQ==" rel="noreferrer" target="_blank">@charquirestaurantok</a></p>
         <p className='parrafo'>Opening hours:</p>
         <p className='parrafo'>Tuesday: 12pm-3:30pm</p>
-        <p className='parrafo'>Wednesday Friday: 12pm – 3:30pm / 7pm – 12am</p>
-        <p className='parrafo'>Saturday: 12pm – 12am</p>
+        <p className='parrafo'>Wednesday-Saturday: 12pm – 11:30pm</p>
         <p className='parrafo'>Sunday: 12pm-7pm</p>
         <p className='parrafo'>Mondays closed</p>
     </div>
